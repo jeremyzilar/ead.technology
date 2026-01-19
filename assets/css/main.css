@@ -5,8 +5,8 @@
 /* Firme Font Family */
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Black.woff') format('woff'),
-       url('/assets/fonts/Firme Black.otf') format('opentype');
+  src: url('../fonts/Firme Black.woff') format('woff'),
+       url('../fonts/Firme Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Black Italic.woff') format('woff'),
-       url('/assets/fonts/Firme Black Italic.otf') format('opentype');
+  src: url('../fonts/Firme Black Italic.woff') format('woff'),
+       url('../fonts/Firme Black Italic.otf') format('opentype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -23,8 +23,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Extra Bold.woff') format('woff'),
-       url('/assets/fonts/Firme ExtraBold.otf') format('opentype');
+  src: url('../fonts/Firme Extra Bold.woff') format('woff'),
+       url('../fonts/Firme ExtraBold.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -32,8 +32,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Extra Bold Italic.woff') format('woff'),
-       url('/assets/fonts/Firme ExtraBold Italic.otf') format('opentype');
+  src: url('../fonts/Firme Extra Bold Italic.woff') format('woff'),
+       url('../fonts/Firme ExtraBold Italic.otf') format('opentype');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -41,8 +41,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Bold.woff') format('woff'),
-       url('/assets/fonts/Firme Bold.otf') format('opentype');
+  src: url('../fonts/Firme Bold.woff') format('woff'),
+       url('../fonts/Firme Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -50,8 +50,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Bold Italic.woff') format('woff'),
-       url('/assets/fonts/Firme Bold Italic.otf') format('opentype');
+  src: url('../fonts/Firme Bold Italic.woff') format('woff'),
+       url('../fonts/Firme Bold Italic.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -59,8 +59,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Medium.woff') format('woff'),
-       url('/assets/fonts/Firme Medium.otf') format('opentype');
+  src: url('../fonts/Firme Medium.woff') format('woff'),
+       url('../fonts/Firme Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -68,8 +68,8 @@
 
 @font-face {
   font-family: 'Firme';
-  src: url('/assets/fonts/Firme Book.woff') format('woff'),
-       url('/assets/fonts/Firme Book.otf') format('opentype');
+  src: url('../fonts/Firme Book.woff') format('woff'),
+       url('../fonts/Firme Book.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

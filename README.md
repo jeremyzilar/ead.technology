@@ -56,6 +56,26 @@ All fonts are configured in `/assets/css/main.css` with proper @font-face declar
 - `tailwind.config.js` - Tailwind CSS configuration
 - `_config.yml` - Jekyll configuration
 
-## Deployment
+## Deployment to GitHub Pages
 
-This site is configured for GitHub Pages. Push to the main branch and GitHub Actions will automatically build and deploy the site.
+This site uses GitHub Actions to build and deploy. The workflow is defined in `.github/workflows/jekyll.yml`.
+
+### Initial Setup
+
+1. Push your code to GitHub
+2. Go to your repository Settings → Pages
+3. Under "Build and deployment", set Source to "GitHub Actions"
+4. Push to the `main` branch to trigger a deployment
+
+The GitHub Action will:
+- Install Ruby and Node.js dependencies
+- Build Tailwind CSS
+- Build the Jekyll site
+- Deploy to GitHub Pages
+
+### Custom Domain
+
+If using a custom domain (like ead.technology):
+1. Add a `CNAME` file to the root with your domain
+2. Configure DNS with your domain provider
+3. Enable HTTPS in GitHub Pages settings
