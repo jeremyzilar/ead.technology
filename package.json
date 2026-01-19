@@ -1,0 +1,20 @@
+{
+  "name": "ead-technology",
+  "version": "1.0.0",
+  "description": "EAD Technology Jekyll site with Tailwind CSS",
+  "scripts": {
+    "dev": "concurrently \"bundle exec jekyll serve --livereload\" \"yarn watch:css\"",
+    "build": "yarn build:css && bundle exec jekyll build",
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --watch"
+  },
+  "keywords": ["jekyll", "tailwind", "design"],
+  "author": "EAD Technology",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2"
+  }
+}

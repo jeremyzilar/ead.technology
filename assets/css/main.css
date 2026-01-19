@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Firme Font Family */
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Black.woff') format('woff'),
+       url('/assets/fonts/Firme Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Black Italic.woff') format('woff'),
+       url('/assets/fonts/Firme Black Italic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Extra Bold.woff') format('woff'),
+       url('/assets/fonts/Firme ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Extra Bold Italic.woff') format('woff'),
+       url('/assets/fonts/Firme ExtraBold Italic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Bold.woff') format('woff'),
+       url('/assets/fonts/Firme Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Bold Italic.woff') format('woff'),
+       url('/assets/fonts/Firme Bold Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Medium.woff') format('woff'),
+       url('/assets/fonts/Firme Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Firme';
+  src: url('/assets/fonts/Firme Book.woff') format('woff'),
+       url('/assets/fonts/Firme Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter font removed - using Firme for all typography */
+
+@layer base {
+  body {
+    @apply font-firme text-gray-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-firme font-extrabold;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-ead-blue hover:text-ead-link hover:underline transition-colors duration-300;
+  }
+
+  .content-link {
+    @apply text-ead-blue underline hover:text-ead-link transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-appear {
+    animation: appear 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
