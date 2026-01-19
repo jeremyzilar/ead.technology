@@ -2,7 +2,7 @@
 title: e.a.d.
 description: Experiments in Art and Design is the strategy, design, and development studio of Juliette Cezzar and Jeremy Zilar.
 url: "https://jeremyzilar.github.io"
-baseurl: "/ead.technology"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
